@@ -1,0 +1,88 @@
+body{
+    background-image: url(https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    place-items: center;
+    min-height: 100px;
+}
+.heading {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 450;
+    color: crimson;
+    position: absolute;
+   
+    top: 13px;
+ 
+    animation: color-change 3s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color: rgb(254, 254, 254); }
+    50% { color: rgb(175, 8, 111); }
+    100% { color: rgb(19, 156, 229); }
+  
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2em;
+    align-content: center;
+    margin-top: 70px;
+    
+
+
+
+}
+.card {
+    height: 100px;
+    width: 90px;
+    background-color: rgb(193, 211, 79);
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    
+
+    
+}
+
+.card img {
+  width: 70px;
+  height: 70px;
+  display: none;
+}
+button{
+background-color: grey;
+color: white;
+position: absolute;
+right: 0;
+bottom: 0;
+width: 100px;
+height: 100px;
+
+}
+h4{
+    color: white;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    left: 10px;
+    bottom: 663px;
+    animation: color-change 1s infinite;
+}
+    @keyframes color-change {
+
+        50% { color: rgb(14, 59, 241); }
+        100% { color: rgb(235, 20, 20); }
+}
+h5{
+    font-size: larger;
+    color: aliceblue;
+}
