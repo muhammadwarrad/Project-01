@@ -58,7 +58,8 @@ function handleClick(e) {
         add++;
     }
     if (add === 6) {
-        alert("You Win")
+    //    bob.style.display="block"
+       alert("you won") 
     }
 
 }
@@ -70,6 +71,8 @@ cards.forEach((card) => {
 
 
 })
-
+// close.onclick = function(){
+//     close.style.display = "none"
+// }
 
 
