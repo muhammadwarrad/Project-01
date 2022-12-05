@@ -86,3 +86,8 @@ h5{
     font-size: larger;
     color: aliceblue;
 }
+h1{
+    display: none;
+    text-align: center;
+    font-size: 40px;
+}
