@@ -91,13 +91,13 @@ h1{
     text-align: center;
     font-size: 40px;
 }
-/* .bob {
+#bob{
 display: none;   
- position: fixed;    
- padding-top: 100px; 
-    left: 90; 
-     top: 0; 
-       width: 80%;    
-        height: 100%;    
-         overflow: auto;
-} */
+position: fixed;
+right: 160px;
+top: 300px;
+background-color: white;
+font-size: 40px;
+color: black;
+
+}
